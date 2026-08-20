@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-agar
+      url: https://github.com/niklas3009/zmk-agar.git
+      revision: main
+      path: modules/zmk-agar
   self:
     path: config
