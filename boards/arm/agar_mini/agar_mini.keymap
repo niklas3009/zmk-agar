@@ -12,11 +12,11 @@
 &kp ESC   &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I      &kp O    &kp P     &kp LBKT  &kp SEMI
 &kp TAB   &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K      &kp L    &kp SQT   &kp RET
 &kp LSHFT &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp RBKT  &kp DEL
-                 &kp LCTRL  &kp LALT  &lt 1 SPACE  &lt 2 SPACE  &kp RALT  &kp RGUI
+                 &kp LCTRL  &kp LALT  &mo 1         &kp SPACE  &mo 2      &kp RGUI
             >;
         };
 
-        // Layer 1: Zahlen, Navigation (WASD + HJKL), Medien & Backspace (Linke Leertaste halten)
+        // Layer 1: Zahlen, Pfeile, Medien & Backspace (Linke Daumentaste halten)
         nav_layer {
             bindings = <
 &kp GRAVE &kp N1   &kp N2   &kp N3   &kp N4    &kp N5   &kp N6   &kp N7    &kp N8     &kp N9     &kp N0     &kp C_PREV  &kp C_NEXT
@@ -26,7 +26,7 @@
             >;
         };
 
-        // Layer 2: F-Tasten, Navigation (Home/End/PgUp/PgDn), Bluetooth & Sonderzeichen (Rechte Leertaste halten)
+        // Layer 2: F-Tasten, Navigation, Bluetooth & Symbole (AltGr-Taste halten)
         media_layer {
             bindings = <
 &kp ESC   &kp F1      &kp F2       &kp F3       &kp F4       &kp F5   &kp F6    &kp F7     &kp F8     &kp F9    &kp F10       &kp F11   &kp F12
